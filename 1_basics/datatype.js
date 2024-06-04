@@ -35,3 +35,26 @@ const myFunction = function(){
 console.log(typeof heros);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//*************************************** stack and heap memory ****************************************/
+
+let myChannal='prashntcoding';      // stack memory(primitive datatype)
+let otherChannal='prashntvolgs';
+otherChannal='prashantreact';
+console.log(myChannal);
+console.log(otherChannal);
+
+
+let user={                           // heap memory (non promitive datatype)
+    name:'prashant',
+    interset:'coding '
+}
+
+let otherUser=user;
+ user.interest='playing'; 
+console.log(user);
+console.log(otherUser);
+
+
+
